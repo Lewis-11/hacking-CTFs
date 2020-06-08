@@ -1,0 +1,28 @@
+david:$1$e7NfNpNi$A6nCwOTqrNR2oDuIKirRZ/:1000:1000:david,,,:/home/david:/bin/bash
+
+
+
+david password: Nowonly4me
+
+log:
+
+$1$e7NfNpNi$A6nCwOTqrNR2oDuIKirRZ/:Nowonly4me    
+                                                 
+Session..........: hashcat
+Status...........: Cracked
+Hash.Type........: md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)
+Hash.Target......: $1$e7NfNpNi$A6nCwOTqrNR2oDuIKirRZ/
+Time.Started.....: Thu Jan 23 14:35:42 2020 (57 mins, 20 secs)
+Time.Estimated...: Thu Jan 23 15:33:02 2020 (0 secs)
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:     4428 H/s (14.72ms) @ Accel:128 Loops:125 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests, 1/1 (100.00%) Salts
+Progress.........: 10776576/14344385 (75.13%)
+Rejected.........: 0/10776576 (0.00%)
+Restore.Point....: 10776064/14344385 (75.12%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:875-1000
+Candidates.#1....: NuSzA04303 -> Nov25th
+
+Started: Thu Jan 23 14:35:32 2020
+Stopped: Thu Jan 23 15:33:04 2020

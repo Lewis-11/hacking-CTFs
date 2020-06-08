@@ -1,0 +1,13 @@
+creds:
+    forme:rpforme
+        not used(?)
+        0a8335493c9fccd648ba53c601e3d67c:rp = rpforme
+    
+    ADMIN HASH:
+        username: haris
+        email: haris@htbswag.net
+        pw-hash: 8512c803ecf70d315b7a43a1c8918522:lBHk0AOG0ux8Ac4tcM1sSb1iD5BNnRJp
+
+    XML:
+        http://10.10.10.140/app/etc/local.xml
+        root:fMVWh7bDHpgZkyfqQXreTjU9

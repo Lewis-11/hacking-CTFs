@@ -1,0 +1,18 @@
+lewis@Lewis:/usr/share/wordlists/dirb$ dirb http://10.10.10.168:8080/ /usr/share/wordlists/dirb/common.txt -X /SuperSecureServer.py
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Tue Jan 28 22:29:09 2020
+URL_BASE: http://10.10.10.168:8080/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+EXTENSIONS_LIST: (/SuperSecureServer.py) | (/SuperSecureServer.py) [NUM = 1]
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://10.10.10.168:8080/ ----
++ http://10.10.10.168:8080/develop/SuperSecureServer.py (CODE:200|SIZE:5892)

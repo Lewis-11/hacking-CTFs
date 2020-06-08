@@ -1,0 +1,115 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Tue Feb 11 01:04:03 GMT 2020
+--------------------------------
+
+http://10.10.10.37:80
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 200 response:
+
+/
+/index.php/2017/
+/index.php/2017/07/
+/index.php/2017/07/02/
+/index.php/2017/07/02/welcome-to-blockycraft/
+/index.php/feed/
+/index.php/comments/feed/
+/wp-includes/
+/wp-includes/js/
+/wp-includes/js/jquery/
+/wp-content/
+/wiki/
+/wp-content/themes/
+/wp-content/themes/twentyseventeen/assets/
+/wp-content/themes/twentyseventeen/assets/js/
+/wp-content/themes/twentyseventeen/assets/css/
+/wp-content/themes/twentyseventeen/assets/images/
+/wp-includes/js/jquery/ui/
+/plugins/
+/plugins/assets/
+/plugins/assets/js/
+/plugins/assets/css/
+/wp-admin/images/
+/phpmyadmin/
+
+Dirs found with a 301 response:
+
+/index.php/
+
+Dirs found with a 403 response:
+
+/icons/
+/javascript/
+/server-status/
+
+Dirs found with a 500 response:
+
+/wp-content/themes/twentyseventeen/
+
+Dirs found with a 302 response:
+
+/wp-admin/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 301 responce:
+
+/index.php
+
+Files found with a 200 responce:
+
+/wp-login.php
+/wp-includes/js/jquery/jquery.js
+/wp-includes/js/jquery/jquery-migrate.min.js
+/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js
+/wp-content/themes/twentyseventeen/assets/js/global.js
+/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js
+/wp-includes/js/jquery/jquery-migrate.js
+/wp-includes/js/wp-embed.min.js
+/wp-includes/js/jquery/jquery.color.min.js
+/wp-includes/js/jquery/jquery.form.js
+/wp-includes/js/jquery/jquery.form.min.js
+/wp-includes/js/jquery/jquery.hotkeys.js
+/wp-content/themes/twentyseventeen/assets/js/customize-controls.js
+/wp-includes/js/jquery/jquery.hotkeys.min.js
+/wp-includes/js/jquery/jquery.masonry.min.js
+/wp-content/themes/twentyseventeen/assets/js/customize-preview.js
+/wp-includes/js/jquery/jquery.query.js
+/wp-content/themes/twentyseventeen/assets/js/html5.js
+/wp-includes/js/jquery/jquery.schedule.js
+/wp-content/themes/twentyseventeen/assets/js/navigation.js
+/wp-includes/js/jquery/jquery.serialize-object.js
+/wp-includes/js/jquery/jquery.table-hotkeys.js
+/wp-includes/js/jquery/jquery.table-hotkeys.min.js
+/wp-content/themes/twentyseventeen/assets/css/colors-dark.css
+/wp-includes/js/jquery/jquery.ui.touch-punch.js
+/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg
+/wp-content/themes/twentyseventeen/assets/css/editor-style.css
+/wp-includes/js/jquery/suggest.js
+/wp-includes/js/jquery/suggest.min.js
+/wp-content/themes/twentyseventeen/assets/css/ie8.css
+/wp-content/themes/twentyseventeen/assets/css/ie9.css
+/plugins/assets/js/script.js
+/license.txt
+/plugins/assets/css/styles.css
+/readme.html
+/wp-admin/install.php
+/wp-admin/upgrade.php
+/wp-trackback.php
+/wp-signup.php
+
+Files found with a 302 responce:
+
+/wp-admin/update-core.php
+/wp-admin/import.php
+
+Files found with a 405 responce:
+
+/xmlrpc.php
+
+
+--------------------------------

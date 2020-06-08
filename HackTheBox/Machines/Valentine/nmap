@@ -1,0 +1,29 @@
+Nmap scan report for 10.10.10.79
+Host is up (0.050s latency).
+Not shown: 65532 closed ports
+PORT    STATE SERVICE   VERSION
+22/tcp  open  ssh       OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http      Apache httpd 2.2.22 ((Ubuntu))
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+443/tcp open  ssl/https Apache/2.2.22 (Ubuntu)
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+| ssl-cert: Subject: commonName=valentine.htb/organizationName=valentine.htb/stateOrProvinceName=FL/countryName=US
+| Not valid before: 2018-02-06T00:45:25
+|_Not valid after:  2019-02-06T00:45:25
+|_ssl-date: 2020-02-25T08:48:34+00:00; -58m59s from scanner time.
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: -58m59s
+
+TRACEROUTE (using port 23/tcp)
+HOP RTT    ADDRESS
+1   ... 30
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 207.80 seconds

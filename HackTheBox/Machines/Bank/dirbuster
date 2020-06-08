@@ -1,0 +1,96 @@
+Dir found: / - 302
+File found: /login.php - 200
+File found: /support.php - 302
+Dir found: /assets/ - 200
+Dir found: /assets/js/ - 200
+Feb 23, 2020 8:32:10 PM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: StartTag div at (r53,c104,p2507) contains attribute name with invalid first character at position (r53,c158,p2561)
+Feb 23, 2020 8:32:10 PM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: StartTag div at (r53,c104,p2507) contains attribute name with invalid first character at position (r53,c162,p2565)
+Feb 23, 2020 8:32:10 PM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: StartTag div at (r53,c104,p2507) contains attribute name with invalid character at position (r53,c166,p2569)
+Feb 23, 2020 8:32:10 PM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: StartTag div at (r53,c104,p2507) rejected because it contains too many errors
+Feb 23, 2020 8:32:10 PM au.id.jericho.lib.html.LoggerProviderJava$JavaLogger info
+INFO: Encountered possible StartTag at (r53,c104,p2507) whose content does not match a registered StartTagType
+File found: /assets/js/jquery.js - 200
+File found: /assets/js/bootstrap.min.js - 200
+Dir found: /icons/ - 403
+Dir found: /assets/css/ - 200
+Dir found: /assets/js/theme/ - 200
+Dir found: /assets/font-awesome/ - 200
+File found: /assets/js/sweetalert.min.js - 200
+File found: /assets/js/bootstrap.js - 200
+Dir found: /assets/fonts/ - 200
+File found: /assets/js/theme/custom.js - 200
+Dir found: /assets/img/ - 200
+File found: /assets/css/bootstrap.css - 200
+File found: /assets/css/bootstrap.min.css - 200
+Dir found: /assets/font-awesome/css/ - 200
+File found: /assets/fonts/glyphicons-halflings-regular.eot - 200
+File found: /assets/js/theme/calendar.js - 200
+File found: /assets/css/htb-bank.css - 200
+Dir found: /assets/font-awesome/fonts/ - 200
+File found: /assets/img/Thumbs.db - 200
+File found: /assets/fonts/glyphicons-halflings-regular.svg - 200
+File found: /assets/js/theme/editors.js - 200
+File found: /assets/css/login.css - 200
+Dir found: /assets/font-awesome/less/ - 200
+File found: /assets/fonts/glyphicons-halflings-regular.ttf - 200
+File found: /assets/js/theme/forms.js - 200
+Dir found: /assets/font-awesome/scss/ - 200
+File found: /assets/js/theme/stats.js - 200
+File found: /assets/fonts/glyphicons-halflings-regular.woff - 200
+File found: /assets/css/sweetalert.css - 200
+File found: /assets/js/theme/tables.js - 200
+File found: /assets/fonts/glyphicons-halflings-regular.woff2 - 200
+Dir found: /assets/css/theme/ - 200
+File found: /assets/font-awesome/css/font-awesome.css - 200
+File found: /assets/font-awesome/fonts/FontAwesome.otf - 200
+File found: /assets/font-awesome/less/bordered-pulled.less - 200
+File found: /assets/font-awesome/css/font-awesome.min.css - 200
+File found: /assets/font-awesome/fonts/fontawesome-webfont.eot - 200
+File found: /assets/font-awesome/scss/_bordered-pulled.scss - 200
+File found: /assets/font-awesome/less/core.less - 200
+File found: /assets/font-awesome/scss/_core.scss - 200
+File found: /assets/font-awesome/fonts/fontawesome-webfont.svg - 200
+File found: /assets/font-awesome/less/fixed-width.less - 200
+File found: /assets/font-awesome/scss/_fixed-width.scss - 200
+File found: /assets/css/theme/buttons.css - 200
+File found: /assets/font-awesome/less/font-awesome.less - 200
+File found: /assets/font-awesome/fonts/fontawesome-webfont.ttf - 200
+File found: /assets/font-awesome/scss/_icons.scss - 200
+File found: /assets/css/theme/calendar.css - 200
+File found: /assets/font-awesome/fonts/fontawesome-webfont.woff - 200
+File found: /assets/font-awesome/less/icons.less - 200
+File found: /assets/font-awesome/scss/_larger.scss - 200
+File found: /assets/css/theme/forms.css - 200
+File found: /assets/font-awesome/less/larger.less - 200
+File found: /assets/font-awesome/scss/_list.scss - 200
+File found: /assets/css/theme/stats.css - 200
+File found: /assets/font-awesome/scss/_mixins.scss - 200
+File found: /assets/css/theme/styles.css - 200
+File found: /assets/font-awesome/less/list.less - 200
+File found: /assets/font-awesome/scss/_path.scss - 200
+File found: /assets/font-awesome/less/mixins.less - 200
+File found: /assets/font-awesome/less/path.less - 200
+File found: /assets/font-awesome/scss/_rotated-flipped.scss - 200
+File found: /assets/font-awesome/less/rotated-flipped.less - 200
+File found: /assets/font-awesome/scss/_spinning.scss - 200
+File found: /assets/font-awesome/less/spinning.less - 200
+File found: /assets/font-awesome/less/stacked.less - 200
+File found: /assets/font-awesome/scss/_stacked.scss - 200
+File found: /assets/font-awesome/scss/_variables.scss - 200
+File found: /assets/font-awesome/scss/font-awesome.scss - 200
+File found: /assets/font-awesome/less/variables.less - 200
+Dir found: /uploads/ - 403
+Dir found: /icons/small/ - 403
+File found: /icons/README.html - 200
+File found: /logout.php - 302
+Dir found: /inc/ - 200
+File found: /inc/footer.php - 200
+File found: /inc/header.php - 302
+File found: /inc/ticket.php - 200
+File found: /inc/user.php - 200
+Dir found: /server-status/ - 403
+Dir found: /balance-transfer/ - 200

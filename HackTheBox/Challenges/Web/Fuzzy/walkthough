@@ -1,0 +1,14 @@
+initial dirbuster
+    > /api/action.php
+        Parameters?
+
+WFUZZ to get parameters:
+    sudo wfuzz -c --hh 24 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://139.59.202.58:32410/api/action.php?FUZZ=1
+        > reset
+    sudo wfuzz -c --hh 27 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u http://139.59.202.58:32410/api/action.php?reset=FUZZ
+        > 20
+
+    http://139.59.202.58:32410/api/action.php?reset=20
+
+
+HTB{h0t_fuzz3r}
